@@ -19,6 +19,6 @@ register.addEventListener('click', function() {
     if (mail.value.length < 10) {
         warningTwo.innerHTML = 'Incorrect';
     } else {
-        correctTwo.innerHTML = 'Correct';
+        correctTwo.innerHTML = 'Correct'; 
     }
 })
