@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="esp">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Registro</title>
+	<!--CSS-->
+	<link rel="stylesheet" href="index.css">
+	<!--FONTS-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <h1>Registro</h1>
-    <input type="text" placeholder="Pon tu nombre" id="user">
-    <p class="warning" id='warning'></p>
-    <p class="correct" id="correct"></p>
-    <input type="text" placeholder="Pon tu correo" id="mail">
-    <p class="warningTwo" id="warningTwo"></p>
-    <p class="correctTwo" id="correctTwo"></p>
-    <input type="button" value="Registrar" class="register" id="register">
-    <script src="index.js"></script>
+	<div class="container">
+		<h1 class="title">Registro</h1>
+		<input type="text" placeholder="Correo" class="email">
+		<p class="correct"></p>
+		<p class="warning"></p>
+		<input type="button" value="Registro" class="register">
+	</div>
 </body>
 </html>

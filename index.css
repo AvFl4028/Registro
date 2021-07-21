@@ -1,0 +1,65 @@
+*{
+	font-family: 'Otomanopee One', sans-serif;
+}
+
+body{
+	background: linear-gradient(to right ,#552F92 ,#0E4AE1);
+}
+
+.container{
+	border: 4px solid black;
+	padding: 5px;
+	width: 400px;
+	margin: auto;
+	border-radius: 30px;
+	height: 600px;
+	background-color: rgb(0, 0, 0, .5);
+}
+
+.title{
+	font-size: 40px;
+	text-align: center;
+	color: rgb(255, 255, 255, .9);
+}
+
+.email{
+	padding: 10px;
+	border-radius: 10px;
+	border: 3px solid gray;
+	width: 200px;
+	margin: auto;
+	display: flex;
+	font-size: 20px;
+	text-align: center;
+}
+
+.correct{
+	color: #2CCE2C;
+	font-size: 30px; 
+	text-align: center;
+}
+
+.warning{
+	color: #CC282B; 
+	font-size: 30px; 
+	text-align: center;
+}
+
+.register{
+	display: flex;
+	margin: auto;
+	font-size: 20px;
+	border-radius: 30px;
+	padding: 5px;
+	background-color: rgb(111, 140, 227);
+	border: 0;
+}
+
+.register:hover{
+	cursor: pointer;
+	opacity: .7;
+}
+
+.email:hover{
+	opacity: .7;
+}
